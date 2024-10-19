@@ -3,9 +3,8 @@
 This project is a personal CV created using HTML and CSS. It showcases my professional experience, education, skills, and contact information in a structured and visually appealing format.
 
 ## Demo
-
-![Demo Image](https://github.com/Attash2312/CV/images/Screenshot-1.png)
-![Demo Image](https://github.com/Attash2312/CV/images/Screenshot-2.png)
+![Demo Image 1](https://raw.githubusercontent.com/Attash2312/CV/main/images/Screenshot-1.png)
+![Demo Image 2](https://raw.githubusercontent.com/Attash2312/CV/main/images/Screenshot-2.png)
 
 ## Features
 
@@ -24,11 +23,11 @@ To view or edit this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/Attash2312/CV
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repo-name
+   cd CV
    ```
 3. Open the `index.html` file in your web browser.
 
