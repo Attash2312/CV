@@ -5,6 +5,19 @@
   font-family: sans-serif;
 }
 
+header h1 {
+    color: rgb(2, 2, 97);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    color: darkblue;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 header {
     background-image: url('images/background.png');
     background-size: cover;
@@ -31,14 +44,14 @@ body {
 
 .left-part h2{
     color: darkblue;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 5px;
     margin-top: 20px;
 }
 
 .left-part h3{
     color: darkblue;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 8px;
     margin-bottom: 5px;
     text-align: center;
@@ -46,15 +59,13 @@ body {
 
 
 .left-part p{
-    color: darkblue;
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 5px;
     text-align: center;
 }
 
 .left-part ul{
-    color: darkblue;
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 5px;
     text-align: center;
     list-style: none;
@@ -69,15 +80,29 @@ body {
 
 .right-part h2{
     color: rgb(4, 60, 4);
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 5px;
     margin-top: 20px;
 }
 
-.right-part p{
+.right-part h3{
     color: rgb(4, 60, 4);
-    font-size: 12px;
+    font-size: 20px;
+    margin-top: 8px;
     margin-bottom: 5px;
+    text-align: center;
+}
+
+.right-part p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.right-part ul{
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-left: 30px;
 }
 
 footer {
@@ -90,6 +115,22 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: white;
+  display: flex;
+    justify-content: center;
+
 }
 
+footer img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
 
