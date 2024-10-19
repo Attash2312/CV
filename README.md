@@ -4,7 +4,8 @@ This project is a personal CV created using HTML and CSS. It showcases my profes
 
 ## Demo
 
-![Demo Image](path/to/your/demo-image.png) <!-- Replace with a path to a screenshot of your CV -->
+![Demo Image](https://github.com/Attash2312/CV/images/Screenshot-1.png)
+![Demo Image](https://github.com/Attash2312/CV/images/Screenshot-2.png)
 
 ## Features
 
