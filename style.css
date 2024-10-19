@@ -6,14 +6,90 @@
 }
 
 header {
-  background: red;
-  text-align: center;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: white;
+}
+
+body {
+    background-color: rgb(203, 240, 252);
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+
+.left-part{
+    padding: 10px;
+    background-color: rgb(185, 252, 185);
+    box-sizing: border-box;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.left-part h2{
+    color: darkblue;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.left-part h3{
+    color: darkblue;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.left-part p{
+    color: darkblue;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.left-part ul{
+    color: darkblue;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+
+.right-part{
+    padding: 10px;
+    background-color: rgb(203, 240, 252);
+    box-sizing: border-box;
+}
+
+.right-part h2{
+    color: rgb(4, 60, 4);
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.right-part p{
+    color: rgb(4, 60, 4);
+    font-size: 12px;
+    margin-bottom: 5px;
 }
 
 footer {
-  background: red;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
   text-align: center;
-  position: fixed;
+  position:relative;
   bottom: 0;
   width: 100%;
+  background-color: white;
 }
+
+
